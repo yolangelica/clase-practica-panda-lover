@@ -1,9 +1,85 @@
 body {
 	margin:0px;
+	font-family: 'Roboto', sans-serif;
 }
 
-.photo-panda, .photo-panda2{
+/*AJUSTA TAMAÑO IMAGENES PRINCIPALES*/
+.photo-panda{
 	background-image: url(../img/uno.jpg);
 	background-size:100%;
 	height: 39em;
+}
+
+.photo-panda2{
+	background-image: url(../img/dos.jpg);
+	background-size: 100%;
+	height: 39em;
+}
+
+.photo-panda3{
+	background-image: url(../img/tres.jpg);
+	background-size: 100%;
+	height: 39em;
+}
+
+/*HEADER*/
+
+header, .div-text , footer{/*asigna color fondo a  elementos*/
+	background-color: #F78E69;
+	color:#FFFFFF;
+}
+
+header .title{/*asigna ancho y alto a header*/
+    width: 100%;
+    padding: 4em;
+}
+
+.title h1{
+	margin-left: 28em;
+}
+.title h5{
+	margin-left:78em;
+}
+
+/*SECCION 1 ,1°FOTO PANDA*/
+.div-text {
+    width: 30em;
+    margin-left: 27em;
+    padding: 2em;
+    text-align: center;
+}
+
+.div-container-text{
+	border-bottom: 1.5em solid #F78E69;
+	border-top: 1.5em solid #F78E69;
+	background: #ABE188;
+	padding: 3em;
+}
+
+/*SECCION PICTURES, PANDAS4 FOTOS*/
+.photo-4pandas{
+	border-bottom: 1.5em solid #F78E69;
+	border-top: 1.5em solid #F78E69;
+	background: #ABE188;
+	padding: 4em;
+}
+
+.title2 h2{/*titulo PICTURES*/
+	text-align: center;
+	color:#FFFFFF;
+	font-size: 3em;
+	padding: 0.5em;
+}
+
+.photo{/*borde color blanco a las 4 fotos pandas*/
+	border: 1em solid white;
+}
+
+.container-pictures{
+	margin-left: 10em;
+	margin-right: 10em;
+}
+
+footer h4{
+	margin-left: 67em;
 }
